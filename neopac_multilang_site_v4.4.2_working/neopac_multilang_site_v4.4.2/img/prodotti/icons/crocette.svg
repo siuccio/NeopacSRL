@@ -1,0 +1,11 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  <g fill="none" stroke="#bf8021" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    
+    <path d="M72 96l24 24M96 96l-24 24" />
+    <path d="M128 96l24 24M152 96l-24 24" />
+    <path d="M184 96l24 24M208 96l-24 24" />
+    <path d="M88 152l24 24M112 152l-24 24" />
+    <path d="M144 152l24 24M168 152l-24 24" />
+    
+  </g>
+</svg>

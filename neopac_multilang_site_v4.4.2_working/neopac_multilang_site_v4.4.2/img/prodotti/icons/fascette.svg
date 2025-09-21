@@ -1,0 +1,9 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  <g fill="none" stroke="#bf8021" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    
+    <rect x="60" y="160" width="136" height="24" rx="8" fill="#213550"/><rect x="60" y="160" width="136" height="24" rx="8"/>
+    <path d="M160 144l36 16" />
+    <rect x="68" y="164" width="24" height="16" rx="3" stroke="#ffffff"/>
+    
+  </g>
+</svg>
