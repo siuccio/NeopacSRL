@@ -1,4 +1,9 @@
 (function(){
+  // Fix URL encoding for image paths with special characters (+ sign)
+  document.querySelectorAll('img[src*="assets_nuovi"]').forEach(img=>{
+    if(!img.src.includes('%')) img.src=encodeURI(img.src);
+  });
+
   // Language switching - preserve current page when changing language
   document.querySelectorAll('.lang a').forEach(link=>{
     const currentPage=window.location.pathname.split('/').pop()||'index.html';
@@ -101,7 +106,7 @@
               card.style.cursor='pointer';
               
               const img=document.createElement('img');
-              img.src=item.image;
+              img.src=encodeURI(item.image);
               img.alt=item[langKey]||item.name_it;
               img.loading='lazy';
               img.style.width='100%';
