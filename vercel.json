@@ -1,0 +1,13 @@
+{
+  "buildCommand": "echo 'Build complete'",
+  "outputDirectory": ".",
+  "public": false,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/:path(.*)",
+      "destination": "/:path"
+    }
+  ]
+}
