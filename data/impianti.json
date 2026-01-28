@@ -147,77 +147,77 @@
               "name_it": "Speedy Small",
               "name_en": "Speedy Small",
               "name_fr": "Speedy Small",
-              "image": "../assets_nuovi/2 - VERTICALI/1/1 - SPEEDY SMALL.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/1 - SPEEDY SMALL.jpg"
             },
             {
               "id": "speedy_small_alt",
               "name_it": "Speedy Small (Variante)",
               "name_en": "Speedy Small (Variant)",
               "name_fr": "Speedy Small (Variante)",
-              "image": "../assets_nuovi/2 - VERTICALI/1/1A - SPEEDY SMALL.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/1A - SPEEDY SMALL.jpg"
             },
             {
               "id": "speedy_small_rialzo",
               "name_it": "Speedy Small + Rialzo",
               "name_en": "Speedy Small + Lift",
               "name_fr": "Speedy Small + Surélevation",
-              "image": "../assets_nuovi/2 - VERTICALI/1/2 - SPEEDY SMALL + RIALZO.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/2 - SPEEDY SMALL + RIALZO.jpg"
             },
             {
               "id": "speedy_small_tavolo",
               "name_it": "Speedy Small + Tavolo",
               "name_en": "Speedy Small + Table",
               "name_fr": "Speedy Small + Table",
-              "image": "../assets_nuovi/2 - VERTICALI/1/3 - TAVOLO + SPPEDY SMALL.JPG"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/3 - TAVOLO + SPPEDY SMALL.JPG"
             },
             {
               "id": "speedy_small_inclinata",
               "name_it": "Speedy Small Inclinata",
               "name_en": "Speedy Small Inclined",
               "name_fr": "Speedy Small Inclinée",
-              "image": "../assets_nuovi/2 - VERTICALI/1/4 - SPEEDY SMALL INCLINATA.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/4 - SPEEDY SMALL INCLINATA.jpg"
             },
             {
               "id": "speedy_work_1",
               "name_it": "Speedy Work",
               "name_en": "Speedy Work",
               "name_fr": "Speedy Work",
-              "image": "../assets_nuovi/2 - VERTICALI/2/1 - SPEEDY WORK.JPG"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/1 - SPEEDY WORK.JPG"
             },
             {
               "id": "speedy_work_inclinata",
               "name_it": "Speedy Work Inclinata",
               "name_en": "Speedy Work Inclined",
               "name_fr": "Speedy Work Inclinée",
-              "image": "../assets_nuovi/2 - VERTICALI/2/2 - SPEEDY WORK INCLINATA.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/2 - SPEEDY WORK INCLINATA.jpg"
             },
             {
               "id": "speedy_work_inox",
               "name_it": "Speedy Work Inox",
               "name_en": "Speedy Work Inox",
               "name_fr": "Speedy Work Inox",
-              "image": "../assets_nuovi/2 - VERTICALI/2/3 - SPEEDY WORK INOX.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/3 - SPEEDY WORK INOX.jpg"
             },
             {
               "id": "speedy_work_tavolo",
               "name_it": "Speedy Work + Tavolo",
               "name_en": "Speedy Work + Table",
               "name_fr": "Speedy Work + Table",
-              "image": "../assets_nuovi/2 - VERTICALI/2/4 - SPEEDY WORK + TAVOLO.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/4 - SPEEDY WORK + TAVOLO.jpg"
             },
             {
               "id": "speedy_work_nastro",
               "name_it": "Speedy Work + Tavolo + Nastro",
               "name_en": "Speedy Work + Table + Belt",
               "name_fr": "Speedy Work + Table + Courroie",
-              "image": "../assets_nuovi/2 - VERTICALI/2/5 - SPEEDY WORK + TAVOLO + NASTRO.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/5 - SPEEDY WORK + TAVOLO + NASTRO.jpg"
             },
             {
               "id": "speedy_big",
               "name_it": "Speedy Big",
               "name_en": "Speedy Big",
               "name_fr": "Speedy Big",
-              "image": "../assets_nuovi/2 - VERTICALI/3/1 - SPEEDY BIG.jpg"
+              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Big/1 - SPEEDY BIG.jpg"
             }
           ]
         }
