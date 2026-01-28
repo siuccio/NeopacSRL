@@ -103,6 +103,7 @@
               const img=document.createElement('img');
               img.src=item.image;
               img.alt=item[langKey]||item.name_it;
+              img.loading='lazy';
               img.style.width='100%';
               img.style.aspectRatio='1';
               img.style.objectFit='cover';
