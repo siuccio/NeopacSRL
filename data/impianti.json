@@ -272,59 +272,38 @@
             },
             {
               "id": "impianto_6",
-              "name_it": "Impianto — Contapezzi Doppio + Speedy Work + Nastro",
-              "name_en": "System — Double Counters + Speedy Work + Belt",
-              "name_fr": "Système — Compteurs Doubles + Speedy Work + Courroie",
-              "image": "/assets_nuovi/5 - IMPIANTI/N 2 CONTAPEZZI + SPEEDY WORK + NASTRINO RISALITA.jpg"
-            },
-            {
-              "id": "impianto_7_alt",
-              "name_it": "Impianto — Contapezzi Tripli + Speedy Work + Nastro",
-              "name_en": "System — Triple Counters + Speedy Work + Belt",
-              "name_fr": "Système — Compteurs Triples + Speedy Work + Courroie",
-              "image": "/assets_nuovi/5 - IMPIANTI/N 3 CONTAPEZZI + SPEEDY WORK + NASTRINO RISALITA.jpg"
-            },
-            {
-              "id": "impianto_7",
               "name_it": "Impianto Inox — Nastro PP + Speedy Work + Nastro",
               "name_en": "Inox System — PP Belt + Speedy Work + Belt",
               "name_fr": "Système Inox — Courroie PP + Speedy Work + Courroie",
               "image": "/assets_nuovi/5 - IMPIANTI/NASTRO PASSO-PASSO INOX + SPEEDY WORK INOX + NASTRINO RISALITA INOX.jpg"
             },
             {
-              "id": "impianto_8",
+              "id": "impianto_7",
               "name_it": "Impianto Inox — Pianale + Speedy Work + Nastro",
               "name_en": "Inox System — Platform + Speedy Work + Belt",
               "name_fr": "Système Inox — Plancher + Speedy Work + Courroie",
               "image": "/assets_nuovi/5 - IMPIANTI/PIANALE DI CARICO INOX + SPEEDY WORK INOX + NASTRINO RISALITA INOX.JPG"
             },
             {
-              "id": "impianto_9",
+              "id": "impianto_8",
               "name_it": "Impianto Inox Completo",
               "name_en": "Complete Inox System",
               "name_fr": "Système Inox Complet",
               "image": "/assets_nuovi/5 - IMPIANTI/STRUTTURA INOX CON GRADINI PASSERELLA  TAVOLO DI SELEZIONI + NASTRO PASSO-PASSO + SPEEDY WORK + NASTRO RISALITA.JPG"
             },
             {
-              "id": "impianto_10",
+              "id": "impianto_9",
               "name_it": "Impianto — Tramoggia + Erigone + Speedy Big",
               "name_en": "System — Hopper + Erigone + Speedy Big",
               "name_fr": "Système — Trémie + Erigone + Speedy Big",
               "image": "/assets_nuovi/5 - IMPIANTI/TRAMOGGIA MAGGIORATA E NASTRO ELEVATORE - ERIGONE - SPPEDY BIG + NASTRINO USCITA.JPG"
             },
             {
-              "id": "impianto_11",
+              "id": "impianto_10",
               "name_it": "Impianto — Vibratore + Tramoggia + DOS15 Doppio + Speedy Small",
               "name_en": "System — Vibrator + Hopper + DOS15 Double + Speedy Small",
               "name_fr": "Système — Vibrateur + Trémie + DOS15 Double + Speedy Small",
               "image": "/assets_nuovi/5 - IMPIANTI/VIBRO-TRAMOGGIA E NASTRO ELEVATORE - DOS15 DOPPIO - SPPEDY SMALL + NASTRINO USCITA.jpg"
-            },
-            {
-              "id": "impianto_12",
-              "name_it": "Impianto — Contapezzi Tripli + Erigone + Speedy Work",
-              "name_en": "System — Triple Counters + Erigone + Speedy Work",
-              "name_fr": "Système — Compteurs Triples + Erigone + Speedy Work",
-              "image": "/assets_nuovi/5 - IMPIANTI/N 3 ERIGONI + WORK + NASTRINO RISALITA.jpg"
             }
           ]
         }
