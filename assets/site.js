@@ -1,7 +1,11 @@
 (function(){
-  // Fix URL encoding for image paths with special characters (+ sign)
+  // Fix URL encoding for image paths with special characters (spaces, + sign, etc)
   document.querySelectorAll('img[src*="assets_nuovi"]').forEach(img=>{
-    if(!img.src.includes('%')) img.src=encodeURI(img.src);
+    // Manually encode problematic characters
+    let src = img.src;
+    src = src.replace(/\s/g, '%20');  // spaces to %20
+    src = src.replace(/\+/g, '%2B');  // + to %2B
+    img.src = src;
   });
 
   // Language switching - preserve current page when changing language
@@ -106,7 +110,10 @@
               card.style.cursor='pointer';
               
               const img=document.createElement('img');
-              img.src=encodeURI(item.image);
+              let src=item.image;
+              src=src.replace(/\s/g,'%20');
+              src=src.replace(/\+/g,'%2B');
+              img.src=src;
               img.alt=item[langKey]||item.name_it;
               img.loading='lazy';
               img.style.width='100%';
