@@ -146,21 +146,4 @@
       container.innerHTML='<p style="color:red">Error loading sections. Check console.</p>';
     });
   }
-
-  // Filter functionality for impianti
-  const q=document.getElementById('q');
-  const applyBtn=document.getElementById('apply');
-  if(q&&applyBtn&&container){
-    function filterItems(){
-      const query=q.value.toLowerCase();
-      container.querySelectorAll('.card').forEach(card=>{
-        const text=card.textContent.toLowerCase();
-        card.style.display=text.includes(query)?'':'none';
-      });
-    }
-    applyBtn.addEventListener('click',filterItems);
-    q.addEventListener('keydown',e=>{
-      if(e.key==='Enter') filterItems();
-    });
-  }
 })();
