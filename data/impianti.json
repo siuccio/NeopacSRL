@@ -17,63 +17,63 @@
               "name_it": "Microdos",
               "name_en": "Microdos",
               "name_fr": "Microdos",
-              "image": "../assets_nuovi/1 - DOSATORI/0 - MICRODOS.jpg"
+              "image": "/assets_nuovi/1 - DOSATORI/0 - MICRODOS.jpg"
             },
             {
               "id": "microdosi_bag",
               "name_it": "Microdosi-bag",
               "name_en": "Microdosi-bag",
               "name_fr": "Microdosi-bag",
-              "image": "../assets_nuovi/1 - DOSATORI/0A - MICRODOSI BAG.jpg"
+              "image": "/assets_nuovi/1 - DOSATORI/0A - MICRODOSI BAG.jpg"
             },
             {
               "id": "dos15",
               "name_it": "DOS 15",
               "name_en": "DOS 15",
               "name_fr": "DOS 15",
-              "image": "../assets_nuovi/1 - DOSATORI/1 - DOS 15.jpg"
+              "image": "/assets_nuovi/1 - DOSATORI/1 - DOS 15.jpg"
             },
             {
               "id": "dos15_bag",
               "name_it": "DOS 15 BAG",
               "name_en": "DOS 15 BAG",
               "name_fr": "DOS 15 BAG",
-              "image": "../assets_nuovi/1 - DOSATORI/2 - DOS 15 BAG.jpg"
+              "image": "/assets_nuovi/1 - DOSATORI/2 - DOS 15 BAG.jpg"
             },
             {
               "id": "dos15_inox",
               "name_it": "DOS15 Inox",
               "name_en": "DOS15 Inox",
               "name_fr": "DOS15 Inox",
-              "image": "../assets_nuovi/1 - DOSATORI/3 - DOS15 INOX.JPG"
+              "image": "/assets_nuovi/1 - DOSATORI/3 - DOS15 INOX.JPG"
             },
             {
               "id": "dos15_doppio_inox",
               "name_it": "DOS15 Doppio Inox",
               "name_en": "DOS15 Double Inox",
               "name_fr": "DOS15 Double Inox",
-              "image": "../assets_nuovi/1 - DOSATORI/4 - DOS15 DOPPIO INOX A SCARICO .jpg"
+              "image": "/assets_nuovi/1 - DOSATORI/4 - DOS15 DOPPIO INOX A SCARICO .jpg"
             },
             {
               "id": "dos15_tram",
               "name_it": "DOS15 Tramoggia",
               "name_en": "DOS15 Hopper",
               "name_fr": "DOS15 Trémie",
-              "image": "../assets_nuovi/1 - DOSATORI/5 - DOS15 TRAM TRONCO CONICA.jpg"
+              "image": "/assets_nuovi/1 - DOSATORI/5 - DOS15 TRAM TRONCO CONICA.jpg"
             },
             {
               "id": "erigone",
               "name_it": "Erigone",
               "name_en": "Erigone",
               "name_fr": "Erigone",
-              "image": "../assets_nuovi/1 - DOSATORI/6 - ERIGONE.jpg"
+              "image": "/assets_nuovi/1 - DOSATORI/6 - ERIGONE.jpg"
             },
             {
               "id": "dosibag",
               "name_it": "Dosibag",
               "name_en": "Dosibag",
               "name_fr": "Dosibag",
-              "image": "../assets_nuovi/1 - DOSATORI/7 - DOSIBAG.jpg"
+              "image": "/assets_nuovi/1 - DOSATORI/7 - DOSIBAG.jpg"
             }
           ]
         },
@@ -88,21 +88,21 @@
               "name_it": "Bilancia Scarico",
               "name_en": "Discharge Scale",
               "name_fr": "Balance de Décharge",
-              "image": "../assets_nuovi/4 - ACCESSORI/Bilancia Scarico.jpg"
+              "image": "/assets_nuovi/4 - ACCESSORI/Bilancia Scarico.jpg"
             },
             {
               "id": "nastro_uscita",
               "name_it": "Nastro Uscita Standard",
               "name_en": "Standard Exit Belt",
               "name_fr": "Courroie de Sortie Standard",
-              "image": "../assets_nuovi/4 - ACCESSORI/NastrinoUscitaStd.JPG"
+              "image": "/assets_nuovi/4 - ACCESSORI/NastrinoUscitaStd.JPG"
             },
             {
               "id": "vibro_elevatore",
               "name_it": "Vibratore/Elevatore",
               "name_en": "Vibrator/Elevator",
               "name_fr": "Vibrateur/Élévateur",
-              "image": "../assets_nuovi/4 - ACCESSORI/Vibro_elevatore.jpeg"
+              "image": "/assets_nuovi/4 - ACCESSORI/Vibro_elevatore.jpeg"
             }
           ]
         }
@@ -125,14 +125,14 @@
               "name_it": "Speedy Small Orizzontale",
               "name_en": "Speedy Small Horizontal",
               "name_fr": "Speedy Small Horizontale",
-              "image": "../assets_nuovi/3 - ORIZZONTALI/1 - SPPEDU SMALL ORVE.jpg"
+              "image": "/assets_nuovi/3 - ORIZZONTALI/1 - SPPEDU SMALL ORVE.jpg"
             },
             {
               "id": "speedy_work_orz",
               "name_it": "Speedy Work Orizzontale",
               "name_en": "Speedy Work Horizontal",
               "name_fr": "Speedy Work Horizontale",
-              "image": "../assets_nuovi/3 - ORIZZONTALI/2 - SPEEDY WORK ORVE.jpg"
+              "image": "/assets_nuovi/3 - ORIZZONTALI/2 - SPEEDY WORK ORVE.jpg"
             }
           ]
         },
@@ -147,77 +147,77 @@
               "name_it": "Speedy Small",
               "name_en": "Speedy Small",
               "name_fr": "Speedy Small",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/1 - SPEEDY SMALL.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_Small/1 - SPEEDY SMALL.jpg"
             },
             {
               "id": "speedy_small_alt",
               "name_it": "Speedy Small (Variante)",
               "name_en": "Speedy Small (Variant)",
               "name_fr": "Speedy Small (Variante)",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/1A - SPEEDY SMALL.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_Small/1A - SPEEDY SMALL.jpg"
             },
             {
               "id": "speedy_small_rialzo",
               "name_it": "Speedy Small + Rialzo",
               "name_en": "Speedy Small + Lift",
               "name_fr": "Speedy Small + Surélevation",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/2 - SPEEDY SMALL + RIALZO.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_Small/2 - SPEEDY SMALL + RIALZO.jpg"
             },
             {
               "id": "speedy_small_tavolo",
               "name_it": "Speedy Small + Tavolo",
               "name_en": "Speedy Small + Table",
               "name_fr": "Speedy Small + Table",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/3 - TAVOLO + SPPEDY SMALL.JPG"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_Small/3 - TAVOLO + SPPEDY SMALL.JPG"
             },
             {
               "id": "speedy_small_inclinata",
               "name_it": "Speedy Small Inclinata",
               "name_en": "Speedy Small Inclined",
               "name_fr": "Speedy Small Inclinée",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Small/4 - SPEEDY SMALL INCLINATA.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_Small/4 - SPEEDY SMALL INCLINATA.jpg"
             },
             {
               "id": "speedy_work_1",
               "name_it": "Speedy Work",
               "name_en": "Speedy Work",
               "name_fr": "Speedy Work",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/1 - SPEEDY WORK.JPG"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_work/1 - SPEEDY WORK.JPG"
             },
             {
               "id": "speedy_work_inclinata",
               "name_it": "Speedy Work Inclinata",
               "name_en": "Speedy Work Inclined",
               "name_fr": "Speedy Work Inclinée",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/2 - SPEEDY WORK INCLINATA.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_work/2 - SPEEDY WORK INCLINATA.jpg"
             },
             {
               "id": "speedy_work_inox",
               "name_it": "Speedy Work Inox",
               "name_en": "Speedy Work Inox",
               "name_fr": "Speedy Work Inox",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/3 - SPEEDY WORK INOX.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_work/3 - SPEEDY WORK INOX.jpg"
             },
             {
               "id": "speedy_work_tavolo",
               "name_it": "Speedy Work + Tavolo",
               "name_en": "Speedy Work + Table",
               "name_fr": "Speedy Work + Table",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/4 - SPEEDY WORK + TAVOLO.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_work/4 - SPEEDY WORK + TAVOLO.jpg"
             },
             {
               "id": "speedy_work_nastro",
               "name_it": "Speedy Work + Tavolo + Nastro",
               "name_en": "Speedy Work + Table + Belt",
               "name_fr": "Speedy Work + Table + Courroie",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_work/5 - SPEEDY WORK + TAVOLO + NASTRO.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_work/5 - SPEEDY WORK + TAVOLO + NASTRO.jpg"
             },
             {
               "id": "speedy_big",
               "name_it": "Speedy Big",
               "name_en": "Speedy Big",
               "name_fr": "Speedy Big",
-              "image": "../assets_nuovi/2 - VERTICALI/Speedy_Big/1 - SPEEDY BIG.jpg"
+              "image": "/assets_nuovi/2 - VERTICALI/Speedy_Big/1 - SPEEDY BIG.jpg"
             }
           ]
         }
@@ -240,77 +240,77 @@
               "name_it": "Impianto — Contapezzi + Speedy Small + Nastro",
               "name_en": "System — Counter + Speedy Small + Belt",
               "name_fr": "Système — Compteur + Speedy Small + Courroie",
-              "image": "../assets_nuovi/5 - IMPIANTI/CONTAPEZZI + SPEEDY SMALL + NASTRINO.jpg"
+              "image": "/assets_nuovi/5 - IMPIANTI/CONTAPEZZI + SPEEDY SMALL + NASTRINO.jpg"
             },
             {
               "id": "impianto_2",
               "name_it": "Impianto — Contapezzi + Speedy Work + Nastro",
               "name_en": "System — Counter + Speedy Work + Belt",
               "name_fr": "Système — Compteur + Speedy Work + Courroie",
-              "image": "../assets_nuovi/5 - IMPIANTI/CONTAPEZZI + SPEEDY WORK + NASTRINO RISALITA.jpg"
+              "image": "/assets_nuovi/5 - IMPIANTI/CONTAPEZZI + SPEEDY WORK + NASTRINO RISALITA.jpg"
             },
             {
               "id": "impianto_3",
               "name_it": "Impianto — DOS15 Doppio + Speedy Work + Nastro",
               "name_en": "System — DOS15 Double + Speedy Work + Belt",
               "name_fr": "Système — DOS15 Double + Speedy Work + Courroie",
-              "image": "../assets_nuovi/5 - IMPIANTI/DOS15 DOPPIO - SPPEDY WORK + NASTRINO RISALITA.jpg"
+              "image": "/assets_nuovi/5 - IMPIANTI/DOS15 DOPPIO - SPPEDY WORK + NASTRINO RISALITA.jpg"
             },
             {
               "id": "impianto_4",
               "name_it": "Impianto — Microdos + Speedy Work + Nastro",
               "name_en": "System — Microdos + Speedy Work + Belt",
               "name_fr": "Système — Microdos + Speedy Work + Courroie",
-              "image": "../assets_nuovi/5 - IMPIANTI/MICRO DOS + SPEEDY WORK +  NASTRINO RISALITA.jpg"
+              "image": "/assets_nuovi/5 - IMPIANTI/MICRO DOS + SPEEDY WORK +  NASTRINO RISALITA.jpg"
             },
             {
               "id": "impianto_5",
               "name_it": "Impianto — Nastro PP Inclinato + Speedy Big + Nastro",
               "name_en": "System — Inclined PP Belt + Speedy Big + Belt",
               "name_fr": "Système — Courroie PP Inclinée + Speedy Big + Courroie",
-              "image": "../assets_nuovi/5 - IMPIANTI/NASTRO PASSO PASSO INCLINASTO + SPEEDY BIG + NASTRINO RISALITA.JPG"
+              "image": "/assets_nuovi/5 - IMPIANTI/NASTRO PASSO PASSO INCLINASTO + SPEEDY BIG + NASTRINO RISALITA.JPG"
             },
             {
               "id": "impianto_6",
               "name_it": "Impianto — Contapezzi Multipli + Speedy Work + Nastro",
               "name_en": "System — Multiple Counters + Speedy Work + Belt",
               "name_fr": "Système — Compteurs Multiples + Speedy Work + Courroie",
-              "image": "../assets_nuovi/5 - IMPIANTI/N° 3 CONTAPEZZI + SPEEDY WORK + NASTRINO RISALITA.jpg"
+              "image": "/assets_nuovi/5 - IMPIANTI/N° 3 CONTAPEZZI + SPEEDY WORK + NASTRINO RISALITA.jpg"
             },
             {
               "id": "impianto_7",
               "name_it": "Impianto Inox — Nastro PP + Speedy Work + Nastro",
               "name_en": "Inox System — PP Belt + Speedy Work + Belt",
               "name_fr": "Système Inox — Courroie PP + Speedy Work + Courroie",
-              "image": "../assets_nuovi/5 - IMPIANTI/NASTRO PASSO-PASSO INOX + SPEEDY WORK INOX + NASTRINO RISALITA INOX.jpg"
+              "image": "/assets_nuovi/5 - IMPIANTI/NASTRO PASSO-PASSO INOX + SPEEDY WORK INOX + NASTRINO RISALITA INOX.jpg"
             },
             {
               "id": "impianto_8",
               "name_it": "Impianto Inox — Pianale + Speedy Work + Nastro",
               "name_en": "Inox System — Platform + Speedy Work + Belt",
               "name_fr": "Système Inox — Plancher + Speedy Work + Courroie",
-              "image": "../assets_nuovi/5 - IMPIANTI/PIANALE DI CARICO INOX + SPEEDY WORK INOX + NASTRINO RISALITA INOX.JPG"
+              "image": "/assets_nuovi/5 - IMPIANTI/PIANALE DI CARICO INOX + SPEEDY WORK INOX + NASTRINO RISALITA INOX.JPG"
             },
             {
               "id": "impianto_9",
               "name_it": "Impianto Inox Completo",
               "name_en": "Complete Inox System",
               "name_fr": "Système Inox Complet",
-              "image": "../assets_nuovi/5 - IMPIANTI/STRUTTURA INOX CON GRADINI PASSERELLA  TAVOLO DI SELEZIONI + NASTRO PASSO-PASSO + SPEEDY WORK + NASTRO RISALITA.JPG"
+              "image": "/assets_nuovi/5 - IMPIANTI/STRUTTURA INOX CON GRADINI PASSERELLA  TAVOLO DI SELEZIONI + NASTRO PASSO-PASSO + SPEEDY WORK + NASTRO RISALITA.JPG"
             },
             {
               "id": "impianto_10",
               "name_it": "Impianto — Tramoggia + Erigone + Speedy Big",
               "name_en": "System — Hopper + Erigone + Speedy Big",
               "name_fr": "Système — Trémie + Erigone + Speedy Big",
-              "image": "../assets_nuovi/5 - IMPIANTI/TRAMOGGIA MAGGIORATA E NASTRO ELEVATORE - ERIGONE - SPPEDY BIG + NASTRINO USCITA.JPG"
+              "image": "/assets_nuovi/5 - IMPIANTI/TRAMOGGIA MAGGIORATA E NASTRO ELEVATORE - ERIGONE - SPPEDY BIG + NASTRINO USCITA.JPG"
             },
             {
               "id": "impianto_11",
               "name_it": "Impianto — Vibratore + Tramoggia + DOS15 Doppio + Speedy Small",
               "name_en": "System — Vibrator + Hopper + DOS15 Double + Speedy Small",
               "name_fr": "Système — Vibrateur + Trémie + DOS15 Double + Speedy Small",
-              "image": "../assets_nuovi/5 - IMPIANTI/VIBRO-TRAMOGGIA E NASTRO ELEVATORE - DOS15 DOPPIO - SPPEDY SMALL + NASTRINO USCITA.jpg"
+              "image": "/assets_nuovi/5 - IMPIANTI/VIBRO-TRAMOGGIA E NASTRO ELEVATORE - DOS15 DOPPIO - SPPEDY SMALL + NASTRINO USCITA.jpg"
             }
           ]
         }
