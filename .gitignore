@@ -1,0 +1,13 @@
+# Mac metadata
+._*
+.DS_Store
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
