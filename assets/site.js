@@ -148,26 +148,6 @@
       console.error('Error loading impianti from all paths:',e);
       container.innerHTML='<p style="color:red">Error loading sections. Check console.</p>';
     });
-  } else {
-    // Load impianti carousel on chi-siamo pages (no sections-container)
-    const lang=(window.location.pathname.includes('/en/')?'en':(window.location.pathname.includes('/fr/')?'fr':'it'));
-    const carousel=document.getElementById(`impianti-carousel-${lang}`);
-    if(carousel){
-      const paths=['../data/impianti.json','/data/impianti.json','./data/impianti.json'];
-      let fetchPromise=Promise.reject('No paths to try');
-      
-      for(let path of paths){
-        fetchPromise=fetchPromise.catch(()=>fetch(path).then(r=>{
-          if(!r.ok) throw new Error('HTTP '+r.status);
-          return r.json();
-        }));
-      }
-      
-      fetchPromise.then(d=>{
-        loadImplantiCarousel(d);
-      }).catch(e=>console.error('Error loading impianti for carousel:',e));
-    }
-  }
   }
   
   // Function to load impianti carousel on about pages
