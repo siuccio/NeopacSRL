@@ -28,8 +28,8 @@ footer{border-top:1px solid var(--border);background:#ffffff} .footer-inner{padd
 .section-content{margin-bottom:40px} .section-content h2{font-size:clamp(1.6rem,2vw,2rem);color:var(--primary);border-bottom:2px solid var(--accent);padding-bottom:12px;margin-bottom:24px}
 .subsection{margin-bottom:28px} .subsection h3{font-size:1.2rem;color:var(--primary);border-left:4px solid var(--accent);padding-left:12px;margin-bottom:16px}
 #sections-container .grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
-@media (max-width:1024px){.card.imp{grid-column:span 6} .filters{grid-template-columns:1fr 1fr auto}}
-@media (max-width:640px){.card.imp{grid-column:span 12} .filters{grid-template-columns:1fr}}
+@media (max-width:1024px){.card.imp{grid-column:span 6} .filters{grid-template-columns:1fr 1fr auto} form{grid-template-columns:1fr!important} form input,form select,form textarea{grid-column:span 1!important}}
+@media (max-width:640px){.card.imp{grid-column:span 12} .filters{grid-template-columns:1fr} form{grid-template-columns:1fr!important} form input,form select,form textarea,form button{grid-column:span 1!important}}
 
 .card.imp{grid-column:span 6;display:flex;flex-direction:column;height:100%}
 .card.imp img{aspect-ratio:16/9;object-fit:contain;background:#ffffff;border-radius:12px}
