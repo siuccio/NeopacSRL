@@ -148,6 +148,25 @@
       console.error('Error loading impianti from all paths:',e);
       container.innerHTML='<p style="color:red">Error loading sections. Check console.</p>';
     });
+  } else {
+    // No sections-container on this page - check if there are impianti carousels (chi-siamo pages)
+    const carousels=document.querySelectorAll('.impianti-carousel');
+    if(carousels.length>0){
+      const lang=(window.location.pathname.includes('/en/')?'en':(window.location.pathname.includes('/fr/')?'fr':'it'));
+      const paths=['../data/impianti.json','/data/impianti.json','./data/impianti.json'];
+      let fetchPromise=Promise.reject('No paths to try');
+      
+      for(let path of paths){
+        fetchPromise=fetchPromise.catch(()=>fetch(path).then(r=>{
+          if(!r.ok) throw new Error('HTTP '+r.status);
+          return r.json();
+        }));
+      }
+      
+      fetchPromise.then(d=>{
+        loadImplantiCarousel(d);
+      }).catch(e=>console.error('Error loading impianti for carousel:',e));
+    }
   }
   
   // Function to load impianti carousel on about pages
