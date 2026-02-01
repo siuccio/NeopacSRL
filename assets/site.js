@@ -207,12 +207,14 @@
       carousel.appendChild(itemEl);
     });
     
-    // Auto-scroll carousel slowly (every 5 seconds)
-    setInterval(()=>{
-      carousel.scrollLeft+=100;
-      if(carousel.scrollLeft>carousel.scrollWidth-carousel.clientWidth){
-        carousel.scrollLeft=0;
-      }
-    },5000);
+    // Clone items for infinite marquee effect
+    const items=carousel.querySelectorAll('.impianti-item');
+    items.forEach(item=>{
+      const clone=item.cloneNode(true);
+      clone.addEventListener('click',()=>{
+        window.location.href='impianti.html';
+      });
+      carousel.appendChild(clone);
+    });
   }
 })();
