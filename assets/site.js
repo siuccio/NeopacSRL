@@ -178,19 +178,18 @@
     const langKey=`name_${lang}`;
     const allImpianti=[];
     
-    // Collect all items from all sections and subsections
+    // Collect only items from "Impianti" section (id: impianti)
     if(data.sections){
-      data.sections.forEach(section=>{
-        if(section.subsections){
-          section.subsections.forEach(sub=>{
-            if(sub.items){
-              sub.items.forEach(item=>{
-                allImpianti.push(item);
-              });
-            }
-          });
-        }
-      });
+      const implantiSection=data.sections.find(s=>s.id==='impianti');
+      if(implantiSection && implantiSection.subsections){
+        implantiSection.subsections.forEach(sub=>{
+          if(sub.items){
+            sub.items.forEach(item=>{
+              allImpianti.push(item);
+            });
+          }
+        });
+      }
     }
     
     // Display first 12 impianti as images only (marquee style)
