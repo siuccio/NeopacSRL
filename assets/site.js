@@ -193,24 +193,28 @@
       });
     }
     
-    // Display first 12 impianti
-    allImpianti.slice(0,12).forEach(item=>{
-      const itemEl=document.createElement('div');
-      itemEl.className='impianti-item card';
-      itemEl.style.textAlign='center';
-      itemEl.style.cursor='pointer';
-      itemEl.title=item[langKey]||item.name_it;
-      itemEl.innerHTML=`<img src="${item.image}" alt="${item[langKey]||item.name_it}" style="width:100%;aspect-ratio:1;object-fit:contain;border-radius:8px"><div style="padding:6px 0;color:var(--muted);font-size:.8rem;white-space:normal;word-break:break-word">${item[langKey]||item.name_it}</div>`;
-      itemEl.addEventListener('click',()=>{
+    // Display first 12 impianti as images only (marquee style)
+    allImpianti.slice(0,12).forEach((item,index)=>{
+      const img=document.createElement('img');
+      let src=item.image;
+      src=src.replace(/\s/g,'%20');
+      src=src.replace(/\+/g,'%2B');
+      img.src=src;
+      img.alt=item[langKey]||item.name_it;
+      img.title=item[langKey]||item.name_it;
+      img.style.cursor='pointer';
+      img.style.animationDelay=`${index*5}s`;
+      img.addEventListener('click',()=>{
         window.location.href='impianti.html';
       });
-      carousel.appendChild(itemEl);
+      carousel.appendChild(img);
     });
     
-    // Clone items for infinite marquee effect
-    const items=carousel.querySelectorAll('.impianti-item');
-    items.forEach(item=>{
-      const clone=item.cloneNode(true);
+    // Clone images for seamless loop
+    const images=carousel.querySelectorAll('img');
+    images.forEach((img,index)=>{
+      const clone=img.cloneNode(true);
+      clone.style.animationDelay=`${(index+images.length)*5}s`;
       clone.addEventListener('click',()=>{
         window.location.href='impianti.html';
       });
