@@ -222,11 +222,11 @@
     // Create and inject animation keyframes dynamically
     const totalImages=carousel.querySelectorAll('img').length;
     const duration=totalImages*5; // 5 seconds per image
-    const keyframes=`@keyframes marquee-carousel{0%{transform:translateX(0);}100%{transform:translateX(-${(totalImages-1)*100}%)}}`;
+    const keyframes=`@keyframes marquee-carousel{0%{transform:translateX(0);}100%{transform:translateX(-${totalImages*100}%)}}`;
     const style=document.createElement('style');
     style.textContent=keyframes;
     document.head.appendChild(style);
     
-    carousel.style.animation=`marquee-carousel ${duration}s linear infinite`;
+    carousel.style.animation=`marquee-carousel ${duration}s steps(${totalImages}) infinite`;
   }
 })();
