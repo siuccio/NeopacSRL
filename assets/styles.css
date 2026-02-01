@@ -7,6 +7,7 @@ header{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--bg) 8
 .nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
 .brand{display:flex;gap:10px;align-items:center;font-weight:800} .logo{width:36px;height:36px;border-radius:12px;background:linear-gradient(135deg,var(--primary),var(--accent))}
 .menu a{padding:.5rem .75rem;border-radius:10px;color:var(--muted)} .menu a.active,.menu a:hover{background:#e8ecf2;color:var(--text)}
+.catalog-link a{padding:.45rem .75rem;border-radius:10px;background:var(--accent);color:#0b0f16;font-weight:600;display:inline-flex;align-items:center;font-size:.95rem;transition:opacity .2s} .catalog-link a:hover{opacity:.85}
 .lang a{padding:.3rem .5rem;border-radius:8px;color:var(--muted)} .lang a.active{color:var(--accent)}
 .hero{padding:44px 0 10px;background:radial-gradient(900px 380px at 50% -10%,color-mix(in srgb,var(--primary) 18%,transparent),transparent)}
 .hero h1{margin:0 0 6px;font-size:clamp(1.8rem,2.6vw,2.8rem)} .hero p{margin:0;color:var(--muted)}
