@@ -194,7 +194,7 @@
     }
     
     // Display first 12 impianti as images only (marquee style)
-    allImpianti.slice(0,12).forEach((item,index)=>{
+    allImpianti.slice(0,12).forEach(item=>{
       const img=document.createElement('img');
       let src=item.image;
       src=src.replace(/\s/g,'%20');
@@ -203,7 +203,6 @@
       img.alt=item[langKey]||item.name_it;
       img.title=item[langKey]||item.name_it;
       img.style.cursor='pointer';
-      img.style.animationDelay=`${index*5}s`;
       img.addEventListener('click',()=>{
         window.location.href='impianti.html';
       });
@@ -212,13 +211,22 @@
     
     // Clone images for seamless loop
     const images=carousel.querySelectorAll('img');
-    images.forEach((img,index)=>{
+    images.forEach(img=>{
       const clone=img.cloneNode(true);
-      clone.style.animationDelay=`${(index+images.length)*5}s`;
       clone.addEventListener('click',()=>{
         window.location.href='impianti.html';
       });
       carousel.appendChild(clone);
     });
+    
+    // Create and inject animation keyframes dynamically
+    const totalImages=carousel.querySelectorAll('img').length;
+    const duration=totalImages*5; // 5 seconds per image
+    const keyframes=`@keyframes marquee-carousel{0%{transform:translateX(0);}100%{transform:translateX(-${(totalImages-1)*100}%)}}`;
+    const style=document.createElement('style');
+    style.textContent=keyframes;
+    document.head.appendChild(style);
+    
+    carousel.style.animation=`marquee-carousel ${duration}s linear infinite`;
   }
 })();
