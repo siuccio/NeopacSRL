@@ -219,13 +219,13 @@
       carousel.appendChild(clone);
     });
     
-    // Scroll carousel: each image 5 seconds
+    // Scroll carousel: each image 5 seconds using scrollIntoView
     let currentIndex=0;
-    const totalImages=carousel.querySelectorAll('img').length;
+    const totalImages=images.length;
     setInterval(()=>{
-      currentIndex=(currentIndex+1)%totalImages;
-      const scrollAmount=carousel.offsetWidth*currentIndex;
-      carousel.scrollLeft=scrollAmount;
+      const img=carousel.children[currentIndex];
+      img.scrollIntoView({behavior:'auto',block:'nearest',inline:'start'});
+      currentIndex=(currentIndex+1)%(totalImages*2);
     },5000);
   }
 })();
