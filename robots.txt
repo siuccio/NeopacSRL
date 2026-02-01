@@ -1,0 +1,14 @@
+# Neopac robots.txt
+# Allow search engines to index all pages
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /img/
+Disallow: /data/
+
+# Sitemap location
+Sitemap: https://neopac.it/sitemap.xml
+
+# Crawl delay (optional - be friendly to crawlers)
+Crawl-delay: 1

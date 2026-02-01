@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Italian Pages -->
+  <url>
+    <loc>https://neopac.it/it/</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/" />
+  </url>
+  <url>
+    <loc>https://neopac.it/it/impianti.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/impianti.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/impianti.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/impianti.html" />
+  </url>
+  <url>
+    <loc>https://neopac.it/it/chi-siamo.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/chi-siamo.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/chi-siamo.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/chi-siamo.html" />
+  </url>
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://neopac.it/en/</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/" />
+  </url>
+  <url>
+    <loc>https://neopac.it/en/impianti.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/impianti.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/impianti.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/impianti.html" />
+  </url>
+  <url>
+    <loc>https://neopac.it/en/chi-siamo.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/chi-siamo.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/chi-siamo.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/chi-siamo.html" />
+  </url>
+
+  <!-- French Pages -->
+  <url>
+    <loc>https://neopac.it/fr/</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/" />
+  </url>
+  <url>
+    <loc>https://neopac.it/fr/impianti.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/impianti.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/impianti.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/impianti.html" />
+  </url>
+  <url>
+    <loc>https://neopac.it/fr/chi-siamo.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/chi-siamo.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://neopac.it/fr/chi-siamo.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://neopac.it/it/chi-siamo.html" />
+  </url>
+</urlset>
