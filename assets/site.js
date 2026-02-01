@@ -141,9 +141,59 @@
         container.appendChild(sectionEl);
       });
       console.log('Impianti loaded successfully');
+      
+      // Load impianti carousel on chi-siamo pages
+      loadImplantiCarousel(d);
     }).catch(e=>{
       console.error('Error loading impianti from all paths:',e);
       container.innerHTML='<p style="color:red">Error loading sections. Check console.</p>';
     });
+  }
+  
+  // Function to load impianti carousel on about pages
+  function loadImplantiCarousel(data){
+    const lang=(window.location.pathname.includes('/en/')?'en':(window.location.pathname.includes('/fr/')?'fr':'it'));
+    const carousel=document.getElementById(`impianti-carousel-${lang}`);
+    if(!carousel) return;
+    
+    const langKey=`name_${lang}`;
+    const allImpianti=[];
+    
+    // Collect all items from all sections and subsections
+    if(data.sections){
+      data.sections.forEach(section=>{
+        if(section.subsections){
+          section.subsections.forEach(sub=>{
+            if(sub.items){
+              sub.items.forEach(item=>{
+                allImpianti.push(item);
+              });
+            }
+          });
+        }
+      });
+    }
+    
+    // Display first 12 impianti
+    allImpianti.slice(0,12).forEach(item=>{
+      const itemEl=document.createElement('div');
+      itemEl.className='impianti-item card';
+      itemEl.style.textAlign='center';
+      itemEl.style.cursor='pointer';
+      itemEl.title=item[langKey]||item.name_it;
+      itemEl.innerHTML=`<img src="${item.image}" alt="${item[langKey]||item.name_it}" style="width:100%;aspect-ratio:1;object-fit:contain;border-radius:8px"><div style="padding:6px 0;color:var(--muted);font-size:.8rem;white-space:normal;word-break:break-word">${item[langKey]||item.name_it}</div>`;
+      itemEl.addEventListener('click',()=>{
+        window.location.href='impianti.html';
+      });
+      carousel.appendChild(itemEl);
+    });
+    
+    // Auto-scroll carousel slowly (every 5 seconds)
+    setInterval(()=>{
+      carousel.scrollLeft+=100;
+      if(carousel.scrollLeft>carousel.scrollWidth-carousel.clientWidth){
+        carousel.scrollLeft=0;
+      }
+    },5000);
   }
 })();
