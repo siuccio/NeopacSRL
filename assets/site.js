@@ -150,22 +150,37 @@
     });
   } else {
     // No sections-container on this page - check if there are impianti carousels (chi-siamo pages)
+    // USE LAZY LOADING: only load carousel data when it enters viewport
     const carousels=document.querySelectorAll('.impianti-carousel');
     if(carousels.length>0){
-      const lang=(window.location.pathname.includes('/en/')?'en':(window.location.pathname.includes('/fr/')?'fr':'it'));
-      const paths=['../data/impianti.json','/data/impianti.json','./data/impianti.json'];
-      let fetchPromise=Promise.reject('No paths to try');
+      let carouselLoaded=false;
       
-      for(let path of paths){
-        fetchPromise=fetchPromise.catch(()=>fetch(path).then(r=>{
-          if(!r.ok) throw new Error('HTTP '+r.status);
-          return r.json();
-        }));
-      }
+      // Use IntersectionObserver to lazy-load carousel only when visible
+      const observer=new IntersectionObserver((entries)=>{
+        entries.forEach(entry=>{
+          if(entry.isIntersecting && !carouselLoaded){
+            carouselLoaded=true;
+            observer.disconnect();
+            
+            const lang=(window.location.pathname.includes('/en/')?'en':(window.location.pathname.includes('/fr/')?'fr':'it'));
+            const paths=['../data/impianti.json','/data/impianti.json','./data/impianti.json'];
+            let fetchPromise=Promise.reject('No paths to try');
+            
+            for(let path of paths){
+              fetchPromise=fetchPromise.catch(()=>fetch(path).then(r=>{
+                if(!r.ok) throw new Error('HTTP '+r.status);
+                return r.json();
+              }));
+            }
+            
+            fetchPromise.then(d=>{
+              loadImplantiCarousel(d);
+            }).catch(e=>console.error('Error loading impianti for carousel:',e));
+          }
+        });
+      },{rootMargin:'100px'});
       
-      fetchPromise.then(d=>{
-        loadImplantiCarousel(d);
-      }).catch(e=>console.error('Error loading impianti for carousel:',e));
+      carousels.forEach(carousel=>observer.observe(carousel));
     }
   }
   
@@ -192,8 +207,8 @@
       }
     }
     
-    // Display first 12 impianti as images only (marquee style)
-    allImpianti.slice(0,12).forEach(item=>{
+    // Display first 8 impianti as images only (marquee style) - reduced from 12 for performance
+    allImpianti.slice(0,8).forEach(item=>{
       const img=document.createElement('img');
       let src=item.image;
       src=src.replace(/\s/g,'%20');
@@ -202,6 +217,12 @@
       img.alt=item[langKey]||item.name_it;
       img.title=item[langKey]||item.name_it;
       img.style.cursor='pointer';
+      img.style.width='100%';
+      img.style.height='400px';
+      img.style.objectFit='contain';
+      img.style.boxSizing='border-box';
+      img.style.willChange='transform';
+      img.loading='lazy';
       img.addEventListener('click',()=>{
         window.location.href='impianti.html';
       });
@@ -218,13 +239,13 @@
       carousel.appendChild(clone);
     });
     
-    // Scroll carousel: each image 5 seconds using scrollIntoView
+    // Scroll carousel: each image 8 seconds using scrollIntoView - increased from 5s
     let currentIndex=0;
     const totalImages=images.length;
     setInterval(()=>{
       const img=carousel.children[currentIndex];
       img.scrollIntoView({behavior:'auto',block:'nearest',inline:'start'});
       currentIndex=(currentIndex+1)%(totalImages*2);
-    },5000);
+    },8000);
   }
 })();
