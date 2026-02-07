@@ -2,17 +2,154 @@
 
 Sito statico multilingue per la presentazione di macchine e impianti industriali.
 
+**Live:** https://neopac.it
+
+## 🚀 Quick Start
+
+### Per visualizzare il sito localmente:
+1. Non è necessario alcun setup speciale (HTML puro)
+2. Apri un browser e vai a `file:///path/to/it/index.html`
+3. Oppure usa un server locale: `python -m http.server 8000` (Python 3)
+
+### Per fare modifiche:
+1. Clona il repo: `git clone https://github.com/siuccio/NeopacSRL.git`
+2. Modifica i file e testa nel browser
+3. Esegui il push: `git add -A && git commit -m "..." && git push`
+
+---
+
+## 💻 Tecnologie Usate
+
+- **HTML5** - Semantico e accessibile
+- **CSS3** - Grid, Flexbox, Variabili CSS
+- **JavaScript (Vanilla)** - Zero dipendenze, performance ottimali
+- **JSON** - Dati dinamici (video, impianti, prodotti)
+- **SVG** - Icone vettoriali (scalabili e leggere)
+
+**Zero framework, Zero librerie esterne** → Sito velocissimo e leggero!
+
+---
+
+## 🌐 Deployment & Hosting
+
+Il sito è attualmente deployato su **Vercel** (auto-deploy da GitHub).
+
+### Per fare il deploy:
+1. Puscha le modifiche a GitHub: `git push`
+2. Vercel si aggiorna automaticamente
+3. Il sito sarà live in pochi secondi
+
+### Opzioni di hosting alternative:
+- **Netlify** (simile a Vercel)
+- **GitHub Pages** (gratuito)
+- **Server statico qualsiasi** (NGINX, Apache, ecc.)
+
+---
+
+## ⚡ Optimizzazioni di Performance
+
+Il sito include diverse ottimizzazioni:
+
+- **Lazy loading** - Le immagini si caricano solo quando entrano nella viewport
+- **CSS containment** - Migliora il rendering su carrelli e sezioni
+- **Carousel ottimizzato per chi-siamo** - Carica i dati JSON solo quando visibile (IntersectionObserver)
+- **Minified CSS** - Inline per evitare richieste extra
+- **Zero dipendenze** - Nessuna libreria, nessuno script blocca il rendering
+
+**Core Web Vitals: Eccellenti** ✅
+
+---
+
+## 🔍 SEO & Meta Tags
+
+Completamente ottimizzato per i motori di ricerca:
+
+- ✅ Meta description e keywords per tutte le pagine
+- ✅ Open Graph tags per social sharing (og:title, og:description, og:image, og:url)
+- ✅ Hreflang tags per le 3 lingue
+- ✅ Canonical URLs
+- ✅ Schema.org JSON-LD (Organization)
+- ✅ Alt text su tutte le immagini (accessibilità)
+- ✅ Favicon presente
+- ✅ robots.txt e sitemap.xml configurati
+- ✅ Una sola H1 per pagina
+
+---
+
+## 🌈 Favicon e Logo
+
+- **Favicon:** `/assets/Favicon.png` (32×32px)
+- **Logo:**  Mostra accanto al brand "NEOPAC" nell'header
+- **SVG logo:** `/assets/logo.svg` (per schema.org)
+
+---
+
+## 🖥️ Browser Supportati
+
+- Chrome / Edge (ultime versioni)
+- Firefox (ultime versioni)
+- Safari (ultime versioni)
+- Mobile browsers (iOS Safari, Chrome Android)
+
+**Non supporta:** IE11 e versioni precedenti
+
+---
+
 ## 📋 Struttura del sito
 
 ```
-/it          → Versione italiana (home)
-/en          → Versione inglese
-/fr          → Versione francese
-/assets      → CSS e JavaScript
-/img         → Immagini (prodotti e impianti)
-/data        → Dati dinamici (video)
-/docs        → Documenti (cataloghi PDF)
+/it                    → Pagine italiano (Home, Impianti, Chi siamo)
+/en                    → Pagine inglese
+/fr                    → Pagine francese
+/assets                → CSS, JS, Favicon, SVG logo
+/img                   → Icone SVG prodotti
+/assets_nuovi          → Immagini impianti (organizzate per categoria)
+/data                  → JSON dinamici (video, impianti)
+/docs                  → PDF (catalogo)
+index.html             → Entry point (redirect a /it/)
+robots.txt             → Per search engines
+sitemap.xml            → Mappa del sito per SEO
+.gitignore             → File ignorati da Git
+README.md              → Questo file
 ```
+
+---
+
+## 🎨 Modificare il Codice
+
+### CSS (Stile)
+**File:** `/assets/styles.css`
+
+Contiene:
+- Variabili CSS (colori, dimensioni, etc.)
+- Grid e Flexbox
+- Responsive design (media queries)
+- Animazioni
+
+**Come modificare:**
+1. Apri il file CSS
+2. Modifica le variabili `:root` per i colori globali
+3. Modifica le classi per il layout
+4. Ricaricha il browser per vederi le modifiche
+
+### JavaScript (Funzionalità)
+**File:** `/assets/site.js`
+
+Contiene:
+- Gestione lingua (hreflang)
+- Caricamento JSON dinamico
+- Carousel video
+- Carousel prodotti
+- Caricamento immagini con lazy loading
+- Carousel impianti con IntersectionObserver
+
+**Come modificare:**
+1. Apri il file JS
+2. Le funzioni sono ben commentate
+3. Non modificare senza testare bene
+4. Ricaricha il browser e apri DevTools (F12) per controllare errori console
+
+---
 
 ## 🌍 Lingue
 
@@ -203,6 +340,52 @@ Il sito è completamente responsive e funziona su:
 - 🇫🇷 **Francese** (FR)
 
 Lo switch lingua è disponibile in alto a destra su ogni pagina.
+
+---
+
+## ❓ Troubleshooting
+
+### Le immagini non si caricano
+- Verifica che il percorso sia corretto in `impianti.json`
+- Controlla che le immagini siano in `/assets_nuovi/` con il nome esatto
+- Apri DevTools (F12) per vederi gli errori nella console
+
+### JSON non valido
+- Copia-incolla in https://jsonlint.com/ per validare
+- Controlla le virgole: ogni elemento deve essere seguito da `,` tranne l'ultimo
+- Usa un editor con syntax highlighting (VS Code)
+
+### Carousel non scorre
+- Ricaricha la pagina (Ctrl+F5)
+- Controlla che il file JSON si carichi senza errori
+- Apri la console (F12) e cerca messaggi di errore
+
+### Lingua non cambia
+- Pulisci la cache del browser (Ctrl+Shift+Delete)
+- Ricaricha la pagina (F5)
+- Verifica che il link lingua sia corretto
+
+---
+
+## 📝 Changelog
+
+### Versione 2.0 (Feb 7, 2026)
+- ✅ Aggiunto favicon e logo
+- ✅ Ottimizzazioni di performance (lazy loading carousel)
+- ✅ Pulizia codice (rimosso file inutili)
+- ✅ Miglioramenti SEO (og:image, traduzioni)
+- ✅ README completamente aggiornato
+
+### Versione 1.0
+- ✅ Setup iniziale sito
+- ✅ Tre lingue (IT, EN, FR)
+- ✅ JSON dinamici per video e impianti
+
+---
+
+## 📄 Licenza
+
+Proprietà di Neopac Srl - Tutti i diritti riservati
 
 ---
 
