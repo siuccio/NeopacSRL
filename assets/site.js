@@ -140,10 +140,6 @@
         
         container.appendChild(sectionEl);
       });
-      console.log('Impianti loaded successfully');
-      
-      // Load impianti carousel on chi-siamo pages
-      loadImplantiCarousel(d);
     }).catch(e=>{
       console.error('Error loading impianti from all paths:',e);
       container.innerHTML='<p style="color:red">Error loading sections. Check console.</p>';

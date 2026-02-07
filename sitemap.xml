@@ -3,7 +3,7 @@
   <!-- Italian Pages -->
   <url>
     <loc>https://neopac.it/it/</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/" />
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://neopac.it/it/impianti.html</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/impianti.html" />
@@ -21,7 +21,7 @@
   </url>
   <url>
     <loc>https://neopac.it/it/chi-siamo.html</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/chi-siamo.html" />
@@ -32,7 +32,7 @@
   <!-- English Pages -->
   <url>
     <loc>https://neopac.it/en/</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/" />
@@ -41,7 +41,7 @@
   </url>
   <url>
     <loc>https://neopac.it/en/impianti.html</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/impianti.html" />
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://neopac.it/en/chi-siamo.html</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/chi-siamo.html" />
@@ -61,7 +61,7 @@
   <!-- French Pages -->
   <url>
     <loc>https://neopac.it/fr/</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/" />
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://neopac.it/fr/impianti.html</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/impianti.html" />
@@ -79,7 +79,7 @@
   </url>
   <url>
     <loc>https://neopac.it/fr/chi-siamo.html</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://neopac.it/en/chi-siamo.html" />
