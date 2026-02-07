@@ -9,12 +9,7 @@ Sito statico multilingue per la presentazione di macchine e impianti industriali
 ### Per visualizzare il sito localmente:
 1. Non è necessario alcun setup speciale (HTML puro)
 2. Apri un browser e vai a `file:///path/to/it/index.html`
-3. Oppure usa un server locale: `python -m http.server 8000` (Python 3)
 
-### Per fare modifiche:
-1. Clona il repo: `git clone https://github.com/siuccio/NeopacSRL.git`
-2. Modifica i file e testa nel browser
-3. Esegui il push: `git add -A && git commit -m "..." && git push`
 
 ---
 
@@ -26,18 +21,11 @@ Sito statico multilingue per la presentazione di macchine e impianti industriali
 - **JSON** - Dati dinamici (video, impianti, prodotti)
 - **SVG** - Icone vettoriali (scalabili e leggere)
 
-**Zero framework, Zero librerie esterne** → Sito velocissimo e leggero!
+**Zero framework, Zero librerie esterne** → Sito veloce e leggero!
 
 ---
 
 ## 🌐 Deployment & Hosting
-
-Il sito è attualmente deployato su **Vercel** (auto-deploy da GitHub).
-
-### Per fare il deploy:
-1. Puscha le modifiche a GitHub: `git push`
-2. Vercel si aggiorna automaticamente
-3. Il sito sarà live in pochi secondi
 
 ### Opzioni di hosting alternative:
 - **Netlify** (simile a Vercel)
@@ -158,7 +146,6 @@ Il sito supporta tre lingue: **Italiano (IT)**, **Inglese (EN)**, **Francese (FR
 ### Come funziona lo switch lingua
 
 - Cliccando sul link della lingua (IT, EN, FR) in alto a destra, il sito rimane sulla **stessa pagina** nella lingua selezionata
-- Non verrà mai reindirizzato alla home se sei su una pagina interna
 - La lingua corrente è sempre evidenziata
 
 ### Pagine disponibili
@@ -370,8 +357,6 @@ Lo switch lingua è disponibile in alto a destra su ogni pagina.
 ## 📝 Changelog
 
 ### Versione 2.0 (Feb 7, 2026)
-- ✅ Aggiunto favicon e logo
-- ✅ Ottimizzazioni di performance (lazy loading carousel)
 - ✅ Pulizia codice (rimosso file inutili)
 - ✅ Miglioramenti SEO (og:image, traduzioni)
 - ✅ README completamente aggiornato
